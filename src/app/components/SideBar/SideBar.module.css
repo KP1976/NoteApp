@@ -1,0 +1,11 @@
+.sideBar {
+  background-color: var(--sideBarColor);
+  border-top-right-radius: 2.4rem;
+  border-bottom-right-radius: 2.4rem;
+  display: grid;
+  gap: 3.2rem 0;
+  grid-template-rows: repeat(5, min-content);
+  height: 100%;
+  padding: 3.2rem;
+  width: 100%;
+}

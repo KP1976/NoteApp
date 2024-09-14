@@ -14,7 +14,6 @@
 
 .noteBook:hover.noteBook {
   color: var(--accentColor);
-  text-transform: uppercase;
 }
 
 .icons {

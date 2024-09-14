@@ -1,0 +1,9 @@
+.noteBookList {
+  display: grid;
+  gap: 1.6rem 0;
+  list-style: none;
+}
+
+.title {
+  font-size: 2.4rem;
+}

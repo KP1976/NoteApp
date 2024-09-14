@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { CreateButton } from "../CreateButton/CreateButton";
+import { NoteBookList } from "../NoteBookList/NoteBookList";
+
 import styles from "./SideBar.module.css";
 
 export const SideBar = () => {
@@ -13,6 +15,7 @@ export const SideBar = () => {
       />
       <CreateButton text="Create Note" />
       <CreateButton text="Create NoteBook" />
+      <NoteBookList />
     </aside>
   );
 };

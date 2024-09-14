@@ -1,0 +1,33 @@
+.noteBook {
+  align-items: center;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  padding: 1.2rem 1.6rem;
+}
+
+.noteBook:hover {
+  background-color: var(--grayColor);
+}
+
+.noteBook:hover.noteBook {
+  color: var(--accentColor);
+  text-transform: uppercase;
+}
+
+.icons {
+  display: none;
+  gap: 0 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  width: min-content;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.noteBook:hover > * {
+  display: grid;
+}

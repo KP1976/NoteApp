@@ -1,6 +1,6 @@
 .page {
   display: grid;
-  grid-template-columns: 20px 1fr;
+  grid-template-columns: 38.4rem 1fr;
   align-items: center;
   justify-items: center;
   min-height: 100svh;

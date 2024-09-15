@@ -1,0 +1,11 @@
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty_folder_title {
+  font-size: 2.4rem;
+  font-weight: 100;
+  padding-top: 0.8rem;
+}

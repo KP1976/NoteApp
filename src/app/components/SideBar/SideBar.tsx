@@ -3,6 +3,7 @@ import { CreateButton } from "../CreateButton/CreateButton";
 import { NoteBookList } from "../NoteBookList/NoteBookList";
 
 import styles from "./SideBar.module.css";
+import { Footer } from "../Footer/Footer";
 
 export const SideBar = () => {
   return (
@@ -16,6 +17,7 @@ export const SideBar = () => {
       <CreateButton text="Create Note" />
       <CreateButton text="Create NoteBook" />
       <NoteBookList />
+      <Footer />
     </aside>
   );
 };

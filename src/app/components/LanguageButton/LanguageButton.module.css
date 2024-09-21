@@ -14,6 +14,10 @@
   width: max-content;
 }
 
-.logo {
-  margin-left: 0.9rem;
+.button img:first-child {
+  margin-right: 0.8rem;
+}
+
+.button img:last-child {
+  margin-left: 1.5rem;
 }

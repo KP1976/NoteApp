@@ -2,10 +2,31 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100svh;
+  padding: 1.8rem 3.2rem 3.2rem;
+  width: 100%;
 }
 
 .empty_folder_title {
-  font-size: 2.4rem;
+  font-size: var(--font-size-24);
   font-weight: 100;
   padding-top: 0.8rem;
+}
+
+.text_plus_button {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  font-size: var(--font-size-48);
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: var(--font-size-16);
+  font-weight: 400;
+  width: 100%;
 }
